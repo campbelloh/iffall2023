@@ -1,0 +1,81 @@
+html{
+    background-color: black;
+}
+.header{
+    text-align: center;
+    padding: 50px 100px;
+    color: white;
+    background: linear-gradient(
+        deepskyblue,
+        black
+    )
+}
+
+.header h1{
+    line-height: 5px;
+    font-size: 50px;
+}
+
+.header h3{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 500px;
+}
+
+body{
+    border: solid 5px white;
+}
+
+.first-quote{
+    padding: 0px 400px 10px 400px;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.first-quote h4{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.first-quote p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.second-quote{
+    padding: 0px 400px 10px 400px;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.second-quote h4{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.second-quote p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.third-quote{
+    padding: 0px 400px 10px 400px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.third-quote h4{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.third-quote p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
