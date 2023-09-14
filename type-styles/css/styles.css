@@ -1,0 +1,76 @@
+body{
+    margin: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    margin-bottom: 75px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 50px;
+}
+
+h2{
+    margin-top: 100px;
+}
+
+h5{
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.extrabold{
+    font-weight: 800;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.big-spacing{
+    letter-spacing: 0.5em;
+}
+
+.small-spacing{
+    letter-spacing: -0.05em;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
