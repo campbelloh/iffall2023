@@ -1,0 +1,103 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: ghostwhite;
+}
+
+.heading{
+    background: url(../images/header.jpeg) no-repeat;
+    background-size: cover;
+    padding: 85px 0 152px;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: -2px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.float-section{
+    padding: 7px 240px 38px 240px;
+    background-color: black;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.float-image{
+    float: right;
+    margin: 0 0 40px 40px;
+    width: 400px;
+    height: 300px;
+    border: solid white 1px;
+}
+
+.grid-section{
+    padding: 6px 240px 34px 240px;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.grid{
+    padding: 0px 50px 0px 0px;
+}
+
+.grid img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 12px;
+}
+
+.grid li{
+    display: block;
+    font-size: 13px;
+    margin:0px 0px 15px 0px;
+}
+
+.examples{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 9px;
+}
+
+h5{
+    font-size: 20px;
+    margin: 2px 0px 7px 0px;
+}
+
+div{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.final-section{
+    padding: 7px 365px 77px 365px;
+    background-color: deeppink;
+}
+
+.final-section p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: 0.35px;
+}
+
+.footer{
+    padding: 40px 0px 50px 240px;
+    font-size: 18px;
+    background-color: black;
+}
