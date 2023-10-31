@@ -1,0 +1,266 @@
+/*---------- COCA COLA ----------*/
+    a#btn_cocacola{
+        display: block;
+        width: 150px;
+        height: 150px;
+		margin: auto;
+        margin-top: 50px;
+		text-align: center;
+		transition: all .4s;
+	}
+
+    a#btn_cocacola img{
+        width: 150px;
+    }
+
+    a#btn_cocacola:hover{
+        transform: rotate(360deg);
+        content: url(https://seeklogo.com/images/C/coca-cola-circle-logo-A9EBD3B00A-seeklogo.com.png);
+        width: 150px;
+    }
+
+/*---------- APPLE ----------*/
+    a#btn_apple{
+        display: block;
+        width: 125px;
+        height: 125px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: solid black;
+        margin: auto;
+        margin-top: 65px;
+        padding-top: 15px;
+        color: black;
+        text-align: center;
+        font-size: 60px;
+        transition: all .4s;
+    }
+
+    a#btn_apple:hover{
+        transform:rotate3d(2, -1, 3, 360deg);
+        border: none;
+        color: white;
+        padding-top: 16px;
+        background-color: black;
+    }
+
+/*---------- MICHAEL KORS ----------*/
+    a#btn_michaelkors{
+        display: block;
+        width: 200px;
+        height: 200px;
+		margin: auto;
+        margin-top: 120px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        text-decoration: none;
+        transition: all .3s;
+    }
+
+    a#btn_michaelkors:hover{
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+
+/*---------- LYFT ----------*/
+    a#btn_lyft{
+        display: block;
+        width: 200px;
+        height: 200px;
+		margin: auto;
+        margin-top: 75px;
+        transition: all .3s;
+    }
+
+    a#btn_lyft img{
+        width: 125px;
+    }
+
+    a#btn_lyft:hover{
+        transform: scale(1.5, 1);
+        transform: skew(0deg, -15deg);
+    }
+
+/*---------- CARTOON NETWORK ----------*/
+    a#btn_cartoonnetwork{
+        display: block;
+        width: 200px;
+        height: 200px;
+		margin: auto;
+        margin-top: 90px;
+        transition: all 0.5s;
+    }
+
+    a#btn_cartoonnetwork img{
+        width: 150px;  
+    }
+
+
+    a#btn_cartoonnetwork:hover{
+        transform: scale(1.1, 1.1);
+        content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cartoon_Network_logo_%281992-2010%29.svg/1280px-Cartoon_Network_logo_%281992-2010%29.svg.png);
+        width: 200px;
+        height: auto;
+        margin-top: 90px;
+    }
+
+/*---------- NIKE ----------*/
+    a#btn_nike{
+        display: block;
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+        background-color: white;
+		margin: auto;
+        margin-top: 50px;
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        color: #ea553b;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all .3s;
+    }
+
+    a#btn_nike:hover{
+        transform: rotate3d(1, -2, 3, 360deg);
+        content: url(https://1.bp.blogspot.com/-3E7pGIb2yzA/VEVMLUqhVcI/AAAAAAAAKsA/5USq754rp4A/s1600/Nike-Logopng.jpg);
+        width: 150px;
+        height: auto;
+    }
+
+/*---------- EXPLODING KITTENS ----------*/
+    a#btn_explodingkittens{
+        display: block;
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+        border: solid black 5px;
+		margin: auto;
+        margin-top: 50px;
+        padding-top: 20px;
+        transition: all .1s;
+    }
+
+    a#btn_explodingkittens img{
+        width: 100px;
+    }
+
+    a#btn_explodingkittens:hover{
+        transform: scale(1.1, 1.1);
+        border: solid orange 10px;
+        box-shadow: 10px 10px 1px orangered;
+    }
+
+/*---------- INSTAGRAM ----------*/
+    a#btn_instagram{
+        display: block;
+        width: 125px;
+        height: 125px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: solid white 2px;
+        margin: auto;
+        margin-top: 65px;
+        padding-top: 20px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-size: 60px;
+        transition: all .4s;
+    }
+
+    a#btn_instagram:hover{
+        transform: rotate(360deg) scale(1.2, 1.2);
+        border: none;
+        background: linear-gradient(
+            -45deg,
+            #405DE6,
+            #5851D8,
+            #833AB4,
+            #C13584,
+            #e1306c,
+            #FD1D1D,
+            #F56040,
+            #F77737,
+            #FCAF45,
+            #FFDC80
+        );
+        padding-top: 20px;
+    }
+
+/*---------- FACEBOOK ----------*/
+    a#btn_facebook{
+        display: block;
+        width: 125px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 7px 20px 30px 20px;
+        background-color: #1877F2;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all .3s;
+    }
+
+    a#btn_facebook:hover{
+        display: block;
+        width: 175px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 7px 20px 30px 20px;
+        background-color: #1877F2;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+
+    a#btn_facebook span{
+        transition: all .3s;
+    }
+
+/*---------- OLD NAVY ----------*/
+    a#btn_oldnavy{
+        display: block;
+        width: 150px;
+        height: 50px;
+        padding: 12px 20px 30px 20px;
+        box-sizing: border-box;
+        background-color: black;
+        margin: auto;
+        margin-top: 100px;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+
+    a#btn_oldnavy:hover{
+        display: block;
+        width: 150px;
+        height: 50px;
+        padding: 12px 20px 30px 20px;
+        box-sizing: border-box;
+        background-color: white;
+        margin: auto;
+        margin-top: 100px;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+    }
