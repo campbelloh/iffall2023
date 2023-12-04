@@ -31,7 +31,7 @@
         margin: auto;
 
         @media (max-width: 800px) {
-            width: 400px;
+            width: 375px;
             column-gap: 20px;
         }
     }
@@ -47,7 +47,7 @@
         text-decoration: none;
 
         @media (max-width: 800px) {
-            font-size: 10px;
+            font-size: 9px;
         }
     }
 
@@ -99,17 +99,13 @@
 
 
 footer{
-    overflow: hidden;
     width: 100%;
-    margin: auto;
     padding-top: 40px;
     padding-bottom: 50px;
     background-color: black;
     color: white;
-
-    @media (max-width: 800px) {
-        width: 500px;
-    }
+    margin: auto;
+    min-width: 375px;
 }
 
 .grid-footer{
@@ -120,7 +116,7 @@ footer{
     margin: auto;
 
     @media (max-width: 800px) {
-        width: 450px;
+        width: 375px;
     }
 }
 
@@ -130,7 +126,7 @@ footer ul{
     font-size: 13px;
 
     @media (max-width: 800px) {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -144,7 +140,7 @@ footer p{
     font-size: 13px;
 
     @media (max-width: 800px) {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -171,17 +167,17 @@ main{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
     @media (max-width: 800px) {
-        width: 450px;
+        width: 375px;
     }
 }
 
 img {
-    width: 800px;
+    width: 798px;
     margin: auto;
     display: block;
 
     @media (max-width: 800px) {
-        width: 450px;
+        width: 373px;
     }
 }
 
@@ -273,22 +269,36 @@ li{
 
 
 
-/*---------- HOMEPAGE (INDEX) ----------*/
+/*---------- SPECIFICS ----------*/
 
 .home-image{
-    padding-bottom: 30px;
+    width: 798px;
+    border: solid 1px black;
+    border-bottom: none;
+
+    @media (max-width: 800px) {
+        width: 373px;
+    }
 }
 
 .history-image{
-    border-bottom: solid 1px black;
+    border: solid 1px black;
+    border-top: none;
+}
+
+.style-image{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
 }
 
 .variety-image{
-    border-top: solid 1px black;
+    border: solid 1px black;
+    border-bottom: none;
 }
 
 .records-image{
-    border-top: solid 1px black;
+    border: solid 1px black;
+    border-bottom: none;
 }
 
 .people{
@@ -311,8 +321,8 @@ li{
     padding-bottom: 7px;
 
     @media (max-width: 800px) {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -323,4 +333,9 @@ li{
     @media (max-width: 800px) {
         font-size: 10px;
     }
+}
+
+.home-body{
+    border: solid 1px black;
+    padding: 50px;
 }
